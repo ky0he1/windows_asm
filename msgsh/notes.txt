@@ -1,0 +1,6 @@
+1. kernel32.dll のアドレス取得
+2. kernel32.dll のエクスポートテーブルから LoadLibraryA と GetProcAddress のアドレス取得
+3. LoadLibraryA で user32.dll を読み込む
+4. GetProcAddress で user32.dll から MessageBoxA のアドレス取得
+5. MessageBoxA を実行
+ざっくりだがこれをアセンブラで書けた
